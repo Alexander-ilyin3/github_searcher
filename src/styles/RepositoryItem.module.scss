@@ -1,0 +1,26 @@
+@import "./mixins.scss";
+
+.item_wrapper {
+  @include li_bordered;
+
+}
+
+.repo_name {}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
+.details_wrapper {
+  display: flex;
+  flex-direction: column;
+}
