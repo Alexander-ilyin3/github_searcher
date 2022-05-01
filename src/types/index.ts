@@ -10,8 +10,8 @@ export interface IUserInfo {
   email: string;
   location: string;
   created_at: string;
-  followers: number;
-  following: number;
+  followers: number | string;
+  following: number | string;
   bio: string;
   avatar_url: string;
 }
